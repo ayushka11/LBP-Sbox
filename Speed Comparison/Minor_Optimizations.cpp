@@ -57,31 +57,31 @@ void RecursifSearch(int S[SIZE], int i)
     if (i < SIZE)
     {
         bool found = false;
+        int last;
 
         for (int possAssign = 1; possAssign <= s[i][0]; possAssign++)
         {
             for (int j = 0; j < i; j++)
                 if ((S[j] == s[i][possAssign]) || (ddt[i ^ j][s[i][possAssign] ^ S[j]] == 0))
-                    continue;
+                    goto L1;
 
             found = true;
-            
-            S[i] = s[i][possAssign];
+            last = possAssign;
 
+            S[i] = s[i][possAssign];
             for (int j = 0; j < i; j++)
                 ddt[i ^ j][S[i] ^ S[j]] -= 2;
-
+            
             RecursifSearch(S, i + 1);
 
             if (find_solution == 1)
                 return;
+            
+            L1:;
         }
 
-        for (int j = 0; j < (i - 1); j++)
+        for (int j = 0; j < i - 1; j++)
             ddt[(i - 1) ^ j][S[i - 1] ^ S[j]] += 2;
-
-        if (!found)
-            return;
     }
     else
     {
@@ -94,10 +94,10 @@ int main()
 {
     int ar[SIZE];
     int ctr = 0;
-    int test = 10;
+    int test = 1;
     double total_time = 0.0;
 
-    for (int j = 0; j < 1000; j++)
+    for (int j = 0; j < 10; j++)
         for (int ii = 0; ii < test; ii++)
         {
             load_sbox_from_file(SBOX, ii);
@@ -136,6 +136,6 @@ int main()
         }
     
     double average_time = total_time / (test);
-    cout << "Average time: " << average_time / 1000 << " seconds" << endl;
+    cout << "Average time: " << average_time / 10 << " seconds" << endl;
     return 0;
 }

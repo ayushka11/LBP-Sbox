@@ -110,7 +110,7 @@ int main()
     int test = 1;
     double total_time = 0.0;
 
-    for (int j = 0; j < 1000; j++)
+    for (int j = 0; j < 10; j++)
         for (int ii = 0; ii < test; ii++)
         {
             load_sbox_from_file(SBOX, ii);
@@ -148,6 +148,6 @@ int main()
             total_time += elapsed.count();
         }
     double average_time = total_time / (test);
-    cout << "Average time: " << average_time / 1000 << " seconds" << endl;
+    cout << "Average time: " << average_time / 10 << " seconds" << endl;
     return 0;
 }
