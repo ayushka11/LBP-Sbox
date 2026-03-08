@@ -1,0 +1,44 @@
+\documentclass{article}
+
+\title{Code Review}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Review of GD Algorithm for DDT}
+
+The algorithm initializes the S-box with $\texttt{S[0] = 0}$ and also sets $\texttt{S[1]} = \min R_1$.
+Computing the minimum of $R_1$ is done in $\mathcal{O}(n)$ time, where $n = 2^k$ is the size of the S-box.
+
+There is a precomputation involved for the algorithm, which calculates $R_i$ for all $i$ from 1 to $n$.
+This is done because the algorithm needs to iterate over these sets during the $\texttt{ComputePossibleValues}$ subroutine later.
+Calculating $R_i$ for all $i$ takes $\mathcal{O}(n^2)$ time.
+It is done by simply iterating through the DDT and finding the non-zero entries.
+
+Now we compute the S-box values for $i$ from 2 to $n$ using a backtracking approach in the $\texttt{RecursiveSearch}$ subroutine.
+
+In each call to $\texttt{RecursiveSearch}$, we calculate the possible values for $\texttt{S[i]}$ using the $\texttt{ComputePossibleValues}$ subroutine.
+The subroutine, which iterates through the sets $R_j$ for $j < i$ to find possible values for $\texttt{S[i]}$.
+This takes $i \cdot |R_i|$ time, for each $i$, leading to a total of $\mathcal{O}(n^2)$ time for each call.
+
+After calling the $\texttt{ComputePossibleValues}$ subroutine, the search explores all possible values for $\texttt{S[i]}$ and backtracks if all entries are filled and the DDT is not satisfied.
+Asymptomatically, the backtracking can lead to an exponential ($\mathcal{O}(n!)$) time complexity in the worst case, especially if the DDT has many non-zero entries, which leads to a large search space.
+The exact performance of the algorithm cannot be determined without specific details about the DDT and the structure of the sets $R_i$.
+
+Asymptomatically, the algorithm performs equally well for finding a single solution or all solutions, as it explores the entire search space in both cases.
+However, in practice, finding all solutions may take significantly more time than finding just one solution, especially if there are many valid S-boxes that satisfy the DDT.
+
+\section{Review of Enhanced GD Algorithm for DDT}
+
+The Dynamic Table-Optimized Search (DTOS) algorithm works similarly to the GD algorithm but improves the number of guesses.
+Again, asymptomatic analysis of the algorithm is not really helpful.
+The algorithm performs same as the GD algorithm in terms of time complexity, but it may significantly reduce the search space in practice, leading to faster execution times.
+
+Every time, we fix a value for $\texttt{S[i]}$, or we backtrack and remove the value of $\texttt{S[i]}$, we update the DDT.
+The DDT update is done in $\mathcal{O}(n)$ time, as we need to iterate through the DDT entries corresponding to $\texttt{S[i]}$.
+The DDT update can significantly reduce the search space, as it eliminates values that would violate the DDT constraints.
+
+\end{document}
