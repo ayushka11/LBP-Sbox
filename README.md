@@ -10,4 +10,4 @@
 
 - 
 
-- Applied the same transformation (that was previously done to check patterns) to 1000 APN 6-bit S-boxes and found the rank of the transformed matrix. Found that except one, each matrix had rank 7 or 12.
+- Applied the same transformation (that was previously done to check patterns) to all APN 6-bit S-boxes and calculated the rank of the transformed matrix. Found that except one S-box, each matrix had rank 7 or 12. `[0 63 35 46 47 43 37 25 24 18 21 57 6 13 22 17 1 39 10 19 42 61 31 23 8 62 51 14 44 49 29 11 2 45 20 48 12 36 4 38 5 26 60 28 52 54 7 27 3 16 59 15 33 53 58 34 32 50 9 40 55 56 41 30]` has its rank as 32, which is the maximum possible, i.e. all its rows are linearly independent.
