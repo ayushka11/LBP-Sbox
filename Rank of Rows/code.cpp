@@ -78,31 +78,21 @@ vector<uint64_t> BuildTransformedRows(const Matrix &ddt)
 
 int RankGF2(const vector<uint64_t> &rows)
 {
-    vector<uint64_t> basis(64, 0);
-    int rank = 0;
-
+    vector<uint64_t> basis;
     for (uint64_t row : rows)
     {
-        uint64_t x = row;
-        for (int bit = 63; bit >= 0 && x != 0; --bit)
+        for (int i = 0; i < static_cast<int>(basis.size()); i++)
         {
-            if (((x >> bit) & 1ULL) == 0)
-            {
-                continue;
-            }
+            row = min(row, row ^ basis[i]);
+        }
 
-            if (basis[bit] == 0)
-            {
-                basis[bit] = x;
-                rank++;
-                break;
-            }
-
-            x ^= basis[bit];
+        if (row)
+        {
+            basis.push_back(row);
         }
     }
 
-    return rank;
+    return static_cast<int>(basis.size());
 }
 
 vector<int> FindPairXorRedundantRows(const vector<uint64_t> &rows)
