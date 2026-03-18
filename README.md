@@ -8,6 +8,6 @@
 
 - Implemented the Hamming Weight-1 approach, in which we constrain the S-box search by pre-fixing all weight-1 inputs to map to themselves (i.e., `S[2^i] = 2^i`), and only searching over the remaining positions. Before searching, we verify Condition B upfront — that `DDT[2^i ⊕ 2^j][2^i ⊕ 2^j] ≥ 2` for all pairs i ≠ j — since this depends only on the fixed assignments. Condition A — that `DDT[2^i][S(0) ⊕ 2^i] ≥ 2` for each HW-1 difference — is checked dynamically during the search as each candidate value for S[0] is tried, pruning branches early where the constraint fails.
 
-- 
+- Applied transformation (given in `/Patterns/Readme.md`) to 6-bit and 5-bit APN S-boxes and ran a script (`find_pattern.py`) to find patterns in resulting transformed matrix.Observations are mentioned in `/Patterns/Readme.md`.
 
 - Applied the same transformation (that was previously done to check patterns) to all APN 6-bit S-boxes and calculated the rank of the transformed matrix. Found that except one S-box, each matrix had rank 7 or 12. `[0 63 35 46 47 43 37 25 24 18 21 57 6 13 22 17 1 39 10 19 42 61 31 23 8 62 51 14 44 49 29 11 2 45 20 48 12 36 4 38 5 26 60 28 52 54 7 27 3 16 59 15 33 53 58 34 32 50 9 40 55 56 41 30]` has its rank as 32, which is the maximum possible, i.e. all its rows are linearly independent.

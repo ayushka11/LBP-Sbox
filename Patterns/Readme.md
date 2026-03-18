@@ -1,3 +1,8 @@
+## Transformation for 6-bit
+- Replace 2 by 1
+- XOR every ith and (32+i)th row of the transpose of DDT 
+- Replace 0 by 1
+
 ## Observations
 
 ### 1. Cyclic Shift
