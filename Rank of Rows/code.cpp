@@ -10,7 +10,7 @@ using namespace std;
 
 #define n 6
 #define SIZE (1 << n)
-#define LIMIT 100
+#define LIMIT 1000
 
 using Sbox = array<int, SIZE>;
 using Matrix = array<array<int, SIZE>, SIZE>;

@@ -10,4 +10,4 @@
 
 - 
 
-- Applied the same transformation (that was previously done to check patterns) to 100 APN 6-bit S-boxes and found the rank of the transformed matrix. Found that except one, each matrix had rank 7 or 12.
+- Applied the same transformation (that was previously done to check patterns) to 1000 APN 6-bit S-boxes and found the rank of the transformed matrix. Found that except one, each matrix had rank 7 or 12.
