@@ -21,7 +21,7 @@ print()
 for i in range(16):
     for j in range(16):
         if i == j: continue
-        for k in range(j+1, 16):
+        for k in range(j + 1, 16):
             if k == i: continue
             if np.array_equal(mat[i], mat[j] ^ mat[k]):
                 print(f"  Row {i} = Row {j} XOR Row {k}")
