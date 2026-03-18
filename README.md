@@ -6,7 +6,7 @@
 
 - Thoroughly analyzed the improvement in the algorithm in the DTOS paper, and added a writeup in the Code Review folder.
 
-- Implemented the Hamming Weight-1 approach, in which we constrain the S-box search by pre-fixing all weight-1 inputs to map to themselves (i.e., `S[2^i] = 2^i`), and only searching over the remaining positions. Before searching, we verify Condition B upfront — that `DDT[2^i ⊕ 2^j][2^i ⊕ 2^j] ≥ 2` for all pairs i ≠ j — since this depends only on the fixed assignments. Condition A — that `DDT[2^i][S(0) ⊕ 2^i] ≥ 2` for each HW-1 difference — is checked dynamically during the search as each candidate value for S[0] is tried, pruning branches early where the constraint fails.
+- Implemented the Hamming Weight-1 approach, in which we constrain the S-box search by pre-fixing all weight-1 inputs to map to themselves (i.e., `S[2^i] = 2^i`), and only searching over the remaining positions. Added a small writeup for the same.
 
 - Applied transformation (given in `/Patterns/Readme.md`) to 6-bit and 5-bit APN S-boxes and ran a script (`find_pattern.py`) to find patterns in resulting transformed matrix.Observations are mentioned in `/Patterns/Readme.md`.
 

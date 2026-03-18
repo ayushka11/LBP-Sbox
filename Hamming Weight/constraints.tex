@@ -1,5 +1,8 @@
 \documentclass{article}
 
+\usepackage{amsmath}
+\usepackage{amssymb}
+
 \title{Hamming Weight Constraints}
 \author{}
 \date{}
@@ -8,6 +11,14 @@
 
 \maketitle
 
+Let $F:\mathbb{F}_2^n \to \mathbb{F}_2^n$ be the S-box. Its difference distribution table is given by $\mathrm{DDT}[a,b] \,=\, \#\{x\in\mathbb{F}_2^n : F(x)\oplus F(x\oplus a)=b\}$.
 
+Here, we aim to find a S-box which satisfies the given DDT and also additionally maps to itself on inputs with Hamming weight 1. In other words, we want to find a S-box $F$ such that $\mathrm{DDT}[a,b]$ is satisfied for all $a,b\in\mathbb{F}_2^n$ and also $F(2^i) = 2^i \ \forall \ 0 \leq i < n$.
+
+Note that the XOR of two inputs with Hamming weight 1 will have Hamming weight 2. Therefore, the DDT entries corresponding to these cases must be consistent with the constraints on the S-box. We can find a solution only if $\mathrm{DDT}[2^i + 2^j, 2^i + 2^j] \geq 2 \ \forall \ 0 \leq i \neq j < n$. This condition is obviously necessary, but it is not sufficient.
+
+When we are finding such a S-box, we are using the Optimized Guess-and-Determine algorithm. However, we are already setting the values of Hamming weight 1 inputs, i.e. $F(2^i) \ \forall \ 0 \leq i < n$, at the beginning of the algorithm. We also modify the \texttt{ComputePossibleValues} subroutine to take into account the prefilled values of the S-box. For each guess $F(x) = y$, we check if the DDT entries corresponding to the XOR of $x$ with Hamming weight 1 inputs are consistent with the prefilled values. If not, we discard that guess immediately. Mathematically, $\mathrm{DDT}[2^i, y \oplus 2^i] \geq 2 \ \forall \ 0 \leq i < n$.
+
+It is easy to see that the above constraints can now be used to significantly reduce the search space of the algorithm.
 
 \end{document}
