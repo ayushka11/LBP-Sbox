@@ -1,0 +1,700 @@
+S-box #1 (apn6.log line 1)
+Differential Uniformity: 4
+Algebraic Degree: 5
+Non Linearity: 20
+Linearity: 24
+Boomerang Uniformity: 14
+----------------------------------------
+S-box #2 (apn6.log line 2)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #3 (apn6.log line 3)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #4 (apn6.log line 4)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #5 (apn6.log line 5)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #6 (apn6.log line 6)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #7 (apn6.log line 7)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #8 (apn6.log line 8)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #9 (apn6.log line 9)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #10 (apn6.log line 10)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #11 (apn6.log line 11)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #12 (apn6.log line 12)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #13 (apn6.log line 13)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #14 (apn6.log line 14)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #15 (apn6.log line 15)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #16 (apn6.log line 16)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #17 (apn6.log line 17)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #18 (apn6.log line 18)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #19 (apn6.log line 19)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #20 (apn6.log line 20)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #21 (apn6.log line 21)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #22 (apn6.log line 22)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #23 (apn6.log line 23)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #24 (apn6.log line 24)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #25 (apn6.log line 25)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #26 (apn6.log line 26)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #27 (apn6.log line 27)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #28 (apn6.log line 28)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #29 (apn6.log line 29)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #30 (apn6.log line 30)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #31 (apn6.log line 31)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #32 (apn6.log line 32)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #33 (apn6.log line 33)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #34 (apn6.log line 34)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #35 (apn6.log line 35)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #36 (apn6.log line 36)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #37 (apn6.log line 37)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #38 (apn6.log line 38)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #39 (apn6.log line 39)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #40 (apn6.log line 40)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #41 (apn6.log line 41)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #42 (apn6.log line 42)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #43 (apn6.log line 43)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #44 (apn6.log line 44)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #45 (apn6.log line 45)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #46 (apn6.log line 46)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #47 (apn6.log line 47)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #48 (apn6.log line 48)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #49 (apn6.log line 49)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #50 (apn6.log line 50)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #51 (apn6.log line 51)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #52 (apn6.log line 52)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #53 (apn6.log line 53)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #54 (apn6.log line 54)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #55 (apn6.log line 55)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #56 (apn6.log line 56)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #57 (apn6.log line 57)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #58 (apn6.log line 58)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #59 (apn6.log line 59)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #60 (apn6.log line 60)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #61 (apn6.log line 61)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #62 (apn6.log line 62)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #63 (apn6.log line 63)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #64 (apn6.log line 64)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #65 (apn6.log line 65)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #66 (apn6.log line 66)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #67 (apn6.log line 67)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #68 (apn6.log line 68)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #69 (apn6.log line 69)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #70 (apn6.log line 70)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #71 (apn6.log line 71)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #72 (apn6.log line 72)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #73 (apn6.log line 73)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #74 (apn6.log line 74)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #75 (apn6.log line 75)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #76 (apn6.log line 76)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #77 (apn6.log line 77)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #78 (apn6.log line 78)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #79 (apn6.log line 79)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #80 (apn6.log line 80)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #81 (apn6.log line 81)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #82 (apn6.log line 82)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #83 (apn6.log line 83)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #84 (apn6.log line 84)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #85 (apn6.log line 85)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #86 (apn6.log line 86)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #87 (apn6.log line 87)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #88 (apn6.log line 88)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #89 (apn6.log line 89)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #90 (apn6.log line 90)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #91 (apn6.log line 91)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #92 (apn6.log line 92)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #93 (apn6.log line 93)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #94 (apn6.log line 94)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #95 (apn6.log line 95)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #96 (apn6.log line 96)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #97 (apn6.log line 97)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #98 (apn6.log line 98)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #99 (apn6.log line 99)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
+S-box #100 (apn6.log line 100)
+Differential Uniformity: 2
+Algebraic Degree: 4
+Non Linearity: 24
+Linearity: 16
+Boomerang Uniformity: 2
+----------------------------------------
